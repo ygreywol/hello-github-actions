@@ -1,0 +1,11 @@
+   ```yaml
+   name: Post welcome comment
+   on:
+     pull_request:
+       types: [opened]
+   permissions:
+     pull-requests: write
+   ```
+
+   > [!NOTE]
+   > This is an incomplete workflow file. It is normal if you receive an error message. One step at a time! 😎
